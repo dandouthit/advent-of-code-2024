@@ -1,7 +1,7 @@
 import re
 sum = 0
 
-with open("/home/dandouthit/advent-of-code-2024/input/day3.txt", 'r') as file:
+with open("../input/day3.txt", 'r') as file:
     line = file.read().replace('\n', '')
 
 matching_list = re.findall(r"mul\([0-9]+,[0-9]+\)", line)

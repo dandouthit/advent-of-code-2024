@@ -1,7 +1,7 @@
 list1 = []
 list2 = []
 
-with open("/home/dandouthit/advent-of-code-2024/input/day1.txt", 'r') as file:
+with open("../input/day1.txt", 'r') as file:
     for line in file:
         items = line.split()
         list1.append(items[0])

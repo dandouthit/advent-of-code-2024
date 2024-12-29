@@ -26,7 +26,7 @@ def diff_small(int_list):
     return True
 
 
-with open("/home/dandouthit/advent-of-code-2024/input/day2.txt", 'r') as file:
+with open("../input/day2.txt", 'r') as file:
     for line in file:
         items = line.split()
         int_list = [int(x) for x in items]

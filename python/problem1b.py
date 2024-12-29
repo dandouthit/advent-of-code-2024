@@ -2,7 +2,7 @@ list1 = []
 list2 = []
 score = 0
 
-with open("/home/dandouthit/advent-of-code-2024/input/day1.txt", 'r') as file:
+with open("/../input/day1.txt", 'r') as file:
     for line in file:
         items = line.split()
         list1.append(int(items[0]))

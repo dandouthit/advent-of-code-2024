@@ -1,7 +1,7 @@
 import re
 sum = 0
 
-with open("/Users/ddouthit/advent-of-code-2024/input/day3.txt", 'r') as file:
+with open("../input/day3.txt", 'r') as file:
     line = file.read().replace('\n', '')
 
 mul_pattern = "mul\([0-9]+,[0-9]+\)"
@@ -25,7 +25,6 @@ for item in matching_list:
         enabled = False
         continue
     elif item[0] == "d":
-        print(item)
         enabled = True
         continue
     
